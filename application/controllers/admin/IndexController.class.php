@@ -28,6 +28,8 @@ class IndexController extends Controller{
         $users = $userModel->getUsers();
         // Load View template
 
+        $users='hello';
+
         include  CURR_VIEW_PATH . "index.html";
 
     }

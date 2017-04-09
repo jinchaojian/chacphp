@@ -29,7 +29,7 @@ class Chacphp{
 
 		//定义路由信息，如
 		//index.php?p=admin&c=Goods&a=add
-		define("PLATFORM",isset($_REQUEST['p'])?$_REQUEST['p']:'home');
+		define("PLATFORM",isset($_REQUEST['p'])?$_REQUEST['p']:'index');
 		define("CONTROLLER",isset($_REQUEST['c'])?$_REQUEST['c']:"index");
 		define("ACTION",isset($_REQUEST['a'])?$_REQUEST['a']:'index');
 

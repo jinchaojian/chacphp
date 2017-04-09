@@ -14,7 +14,7 @@ class UserModel extends Model{
         $users = $this->db->getOne($sql);
 
        // $users = $this->db->lastInsertId($sql);
-        print_r($users);
+       // print_r($users);
 
         return $users;
     }

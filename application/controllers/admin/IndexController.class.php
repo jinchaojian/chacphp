@@ -24,12 +24,10 @@ class IndexController extends Controller{
     }
 
     public function indexAction(){
-        $userModel = new UserModel("user");
+        $userModel = new UserModel("user_detail");
         $users = $userModel->getUsers();
         // Load View template
-
         $users='hello';
-
         include  CURR_VIEW_PATH . "index.html";
 
     }

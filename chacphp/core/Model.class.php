@@ -13,7 +13,7 @@ class Model{
 		$dbconfig['charset']=$GLOBALS['config']['charset'];
 
 		$this->db=new Mysql($dbconfig);
-		$this->table='user_base';
+		$this->table=$table;
 		//$this->getFields();
 	}
 
